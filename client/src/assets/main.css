@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+body {
+    background: rgb(185, 232, 119)
+    /* background: linear-gradient(-5deg, hsl(86, 61%, 44%), hsl(86, 65%, 54%)); */
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color:#030e12;
+    font-size: 48px;
+    font-weight:900;
+    letter-spacing: 1px;
+    padding-top:2rem;
+    margin: 1rem;
+}
+.search-bar{
+    margin: 1rem 0;
+    width:400px;
+    height:40px;
+    border:none;
+    outline:none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
